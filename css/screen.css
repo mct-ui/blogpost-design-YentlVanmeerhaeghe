@@ -53,14 +53,8 @@ html {
     line-height: 1.5;
     font-family: "Droid Serif", Helvetica, arial, sans-serif;
     color: #5C6366;
-    padding: 48px 24px 24px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-    max-width: 42em;
-    margin: 0 auto;
 }
 
 /*
@@ -184,6 +178,7 @@ a:hover, a:focus {
     color: #1ABAFF;
 }
 
+/*
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
@@ -191,9 +186,6 @@ a:hover, a:focus {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    html {
-        padding: 48px 48px 24px;
-    }
     h1 {
         font-size: 58px;
         line-height: 64px;
